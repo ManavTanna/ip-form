@@ -106,11 +106,12 @@ height: 400px;
 width: 350px;
 margin-right: 3rem;
 }
+
 }
 </style>
 <body>
 <form action="" enctype="multipart/form-data" method="put">
-<h3 style="font-family: 'Aboreto', cursive;">Your Cart</h3>
+<img src="https://res.cloudinary.com/djww0nfoy/image/upload/v1661447009/web%20dev/large-pStUGbPch-transformed_voigm3.jpg" alt="logo" style="width: 200px;">
 <div class="cart">
 <div class="form-data">
 <label for="tagline">Enter Tagline:</label>
@@ -123,15 +124,23 @@ margin-right: 3rem;
 <input type="radio" id="white" name="color"
 value="White" />
 <label for="white">White</label>
-<input type="radio" id="blue" name="color" value="blue"
+<input type="radio" id="green" name="color"
+value="Green" />
+<label for="green">Green</label>
+<input type="radio" id="yellow" name="color"
+value="Yellow" />
+<label for="yellow">Yellow</label>
+<input type="radio" id="yellow" name="color" value="yellow"
 />
 <label for="blue">Blue</label> <br />
 <label for="size">Select Size:</label>
 <select id="size" name="size">
-<option value="25">25</option>
-<option value="30">30</option>
-<option value="35">35</option>
-<option value="40">40</option>
+  <option value="XS">XS</option>
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+<option value="XXL">XXL</option>
 </select>
 <br />
 <label for="quantity">Quantity: </label>
@@ -143,7 +152,7 @@ value="White" />
 </select>
 <br />
 <label for="price"
->Total Order Price: <strong>25.49$</strong></label
+>Total Order Price: <strong>39.99$</strong></label
 >
 <br />
 <div class="mt-1"></div>
@@ -160,6 +169,9 @@ value="Credit/Debit Card"
 <input type="radio" id="upi" name="color"
 value="UPI" />
 <label for="upi">UPI</label> <br />
+<input type="radio" id="cod" name="color"
+value="COD" />
+<label for="cod">Cash On Delivery</label> <br />
 <input
 type="radio"
 id="crypto"
@@ -170,7 +182,7 @@ value="Crypto"
 </div>
 <label for="address">Address:</label><br>
 <p>56, Churchill Apartments, Peterson Av., San Marcos, Tx</p>
-<button type="submit" class="btn">Place Order</button>
+<button type="submit" class="btn">Order</button>
 </div>
 <div class="preview">
 <img src="https://res.cloudinary.com/djww0nfoy/image/upload/v1659328098/iplab/tshirt_ctgop6.webp" alt="" />
